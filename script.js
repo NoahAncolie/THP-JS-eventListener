@@ -1,7 +1,7 @@
-let myFooter = document.getElementById("myFooter")
+let myFooter = document.getElementByTagName("footer")
 let clickNumber = 0
 myFooter.addEventListener("click", function(){
-    console.log(`click numéro : ${clickNumber}`)
+    console.log(`click numéro : ${clickNumber + 1}`)
     clickNumber += 1
 })
 
